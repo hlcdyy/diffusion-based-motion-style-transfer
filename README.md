@@ -22,6 +22,11 @@ If our project is helpful for your research, please consider citing :
 - [ ] Release the diffusion-based T2M prior pre-training code.
 - [ ] Release the motion semantic discriminator pre-training code.
 
+## Environment
+```bash
+pip install -r requirements.txt
+```
+
 ## Preparation
 ### Step 1: Download the pre-trained model
 Please download the pretrained [motion prior (Text-to-Motion Prior)](https://drive.google.com/file/d/17jR4MPNjJezjXlUtpvhcjcJ9i7evZHiB/view?usp=sharing) and unzip in the root directory. 
@@ -35,6 +40,8 @@ We will relese the data process script soon.
 
 ### Step 3: Download the SMPL files
 Plase download the [smpl body models](https://drive.google.com/file/d/12-dmRfFvhq0QQv5kWNwqQ01pP3K1Ggvi/view?usp=sharing)
+
+
 
 ## Finetine the diffusion model for style transfer
 
