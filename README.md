@@ -57,7 +57,7 @@ python -m train.finetune_style_diffusion --overwrite \
 You can replace the style example motion by specifying --style_example. The fine-tuning probably lasts a few tens of seconds.
 
 
-## run the demo
+## Run the demo
 ```bash
 python -m sample.demo_style_transfer --model_path save_stylexia/inpainting_style_model/286depressed_running/model000000032.pt \
                                      --input_content 005childlike_normal walking.npy \ 
