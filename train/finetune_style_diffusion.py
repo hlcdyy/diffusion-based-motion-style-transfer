@@ -5,7 +5,7 @@ finetune a diffusion-based motion prior for style transfer
 
 import os
 os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
-os.environ['CUDA_VISIBLE_DEVICES'] = '6'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import json
 from utils.fixseed import fixseed
 from data_loaders.humanml.scripts.motion_process import recover_from_ric
