@@ -56,6 +56,7 @@ python -m sample.demo_style_transfer --model_path save_stylexia/inpainting_style
                                      --input_content 005childlike_normal walking.npy \ 
                                      --output_dir ./output_demo
 ```
+You can revise the --input_content for changing the content motion.
 
 ## Acknowledgement
 We want to thank the following contributors that our code is based on:
